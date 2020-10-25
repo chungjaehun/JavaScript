@@ -38,7 +38,7 @@ const nAn = "not a number" / 2;
 console.log(infinity);
 console.log(negativeInfinity);
 console.log(nAn);
-111
+
 
 // string
 const char="c";
