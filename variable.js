@@ -17,19 +17,17 @@ console.log(globalName);
 
 // 3. Contants
 // favor immutable data type always for a few reasons;
-//  - security : 보안
-//  - thread safety
-//  - reduce human mistakes
-
+//  - security : 보안상
+//  - thread safety : 
+//  - reduce human mistakes : 휴먼 에러 최소화
 
 // 4. variable types
 // primitive, string item : number, string, boolean, null, undefied, symbol
 // object, box container
-// function, first-class function => function은 다른 data type과 동일하게 변수할당이 가능하고, 함수의 파리미터값으로 전달이 가능하고, 리턴 type으로도 가능하다.
-
+// function, first-class function => function은 다른 data type과 동일하게 변수에 할당이 가능하고, 함수의 파리미터값으로 전달이 가능하고, 리턴 type으로도 가능하다.
 
 // number
-// javaScript는 숫자는 number 타입이다. javaScript는 Dynamic type으므로
+// javaScript는 숫자는 number 타입이다. 그런데 먼저 숫자를 선언하지 않아도 된다. javaScript는 Dynamic type으므로
 // let a = 14; 로 적용하면 된다.
 
 const infinity = 1 / 0;
@@ -38,7 +36,6 @@ const nAn = "not a number" / 2;
 console.log(infinity);
 console.log(negativeInfinity);
 console.log(nAn);
-
 
 // string
 const char="c";
