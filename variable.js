@@ -3,7 +3,8 @@
 // use this for valina Javascript
 'use strict';
 
-// 2. Variable
+// 2. Variable, rw(read/write)
+// 메모리에 읽고 쓰기가 가능하다.
 // favor mutable data
 // let (added in ES6)
 let globalName = 'golobal name';
@@ -15,11 +16,17 @@ let globalName = 'golobal name';
 console.log(name);
 console.log(globalName);
 
-// 3. Contants
+// 3. Contant
+// 메모리에 읽기만 가능하다.
 // favor immutable data type always for a few reasons;
 //  - security : 보안상
 //  - thread safety : 
 //  - reduce human mistakes : 휴먼 에러 최소화
+
+//note!
+// Immutable data types: premitive types, frozen objects (i.e. object.freeze())
+// Mutable data types: all objects by default are mutable on JS
+// favor immutable data type always for a few reasons:
 
 // 4. variable types
 // primitive, string item : number, string, boolean, null, undefied, symbol
